@@ -1,0 +1,4 @@
+# shows full path in finder header
+# $1 - Yes/No (case required, not yes/no)
+
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool $1; killall Finder 
