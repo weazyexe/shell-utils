@@ -3,5 +3,5 @@
 # $2 - device ip
 
 adb tcpip $1
-adb connect $2
+adb connect $2:$1
 adb devices
